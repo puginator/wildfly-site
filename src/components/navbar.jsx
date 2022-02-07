@@ -7,7 +7,7 @@ import logo from "../images/wildflynobg-trimmy.png";
 export default function NavBar() {
     return (
         <>
-              <Navbar bg="light" variant="light" className="sticky-top">
+              <Navbar bg="light" variant="light" className="sticky-top p-3">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img
@@ -18,14 +18,14 @@ export default function NavBar() {
                             className="d-inline-block align-top"
                         />
                     </Navbar.Brand>
-                    <Nav className="">
-                        <Nav.Item className="font-weight-bold" >
+                    <Nav className="text-uppercase">
+                        <Nav.Item className="font-weight-bold h5" >
                             <Nav.Link href="#home">Home</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="font-weight-bold">
+                        <Nav.Item className="font-weight-bold h5">
                             <Nav.Link href="#features">Beers</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="font-weight-bold">
+                        <Nav.Item className="font-weight-bold h5">
                             <Nav.Link href="#pricing">About Us</Nav.Link>
                         </Nav.Item>
                     </Nav>
