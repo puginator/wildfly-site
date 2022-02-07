@@ -18,7 +18,7 @@ export default function NavBar() {
                             className="d-inline-block align-top"
                         />
                     </Navbar.Brand>
-                    <Nav variant="pills" activeKey="#home" className="">
+                    <Nav className="">
                         <Nav.Item className="font-weight-bold" >
                             <Nav.Link href="#home">Home</Nav.Link>
                         </Nav.Item>
