@@ -1,8 +1,13 @@
 import './App.css';
+import './components/navbar'
+import NavBar from './components/navbar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar>
+        
+      </NavBar>
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
