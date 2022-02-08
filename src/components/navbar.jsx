@@ -26,7 +26,7 @@ export default function NavBar() {
                             <Nav.Link href="#features">Beers</Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="font-weight-bold h5">
-                            <Nav.Link href="#pricing">About Us</Nav.Link>
+                            <Nav.Link href="#about">About Us</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Container>
