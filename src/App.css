@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+.hero-image {
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .App-logo {
@@ -32,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

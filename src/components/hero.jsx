@@ -7,7 +7,7 @@ export default function Hero() {
         <Carousel  interval={null} fade={true} >
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 hero-image"
                 src="https://images.unsplash.com/photo-1571613316887-6f8d5cbf7ef7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 alt="First slide"
                 />
@@ -18,7 +18,7 @@ export default function Hero() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 hero-image"
                 src="https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt="Second slide"
                 />
@@ -30,7 +30,7 @@ export default function Hero() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-100"
+                className="d-block w-100 hero-image"
                 src="https://images.unsplash.com/photo-1576271758698-e64b83251f4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt="Third slide"
                 />
