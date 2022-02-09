@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../images/wildflynobg-trimmy.png";
 
@@ -20,13 +21,19 @@ export default function NavBar() {
                     </Navbar.Brand>
                     <Nav className="text-uppercase">
                         <Nav.Item className="font-weight-bold h5" >
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Link to="/">
+                                <Nav.Link href="#home">Home</Nav.Link>
+                            </Link>
                         </Nav.Item>
                         <Nav.Item className="font-weight-bold h5">
-                            <Nav.Link href="/beers">Beers</Nav.Link>
+                            <Link to="/beers">
+                                <Nav.Link href="/beers">Beers</Nav.Link>
+                            </Link>
                         </Nav.Item>
                         <Nav.Item className="font-weight-bold h5">
-                            <Nav.Link href="#about">About Us</Nav.Link>
+                            <Link to="/about">
+                                <Nav.Link href="#about">About Us</Nav.Link>
+                            </Link>
                         </Nav.Item>
                     </Nav>
                 </Container>
