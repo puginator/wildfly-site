@@ -3,6 +3,10 @@
   object-fit: cover;
 }
 
+.btn-submit {
+  position: relative;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
