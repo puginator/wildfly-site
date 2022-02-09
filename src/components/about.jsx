@@ -10,4 +10,4 @@ export default function About() {
             <button className="btn btn-primary">Follow @wildflybrewing<i className="fa-brands fa-instagram p-2"></i> </button>
         </div>
     )
-}
+};

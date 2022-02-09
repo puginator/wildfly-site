@@ -31,7 +31,7 @@ export default function NavBar() {
                             </Link>
                         </Nav.Item>
                         <Nav.Item className="font-weight-bold h5">
-                            <Link to="/about">
+                            <Link to="/aboutus">
                                 <Nav.Link href="#about">About Us</Nav.Link>
                             </Link>
                         </Nav.Item>
