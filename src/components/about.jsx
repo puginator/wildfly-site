@@ -2,11 +2,12 @@ import React from "react";
 
 export default function About() {
     return(
-        <div className="m-5">
-            <h1>Why We Brew</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis aut suscipit necessitatibus quia excepturi sit, vel sed corrupti amet doloremque ad quas in quod aliquam nemo possimus ea commodi impedit unde assumenda officiis! Aliquam, distinctio voluptatum! Atque doloribus saepe rerum dolorum suscipit iure. In nesciunt alias voluptate, sunt voluptatum eos!</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum perferendis ipsam similique dolorum nam. Itaque, necessitatibus aspernatur modi ipsam quos deleniti repudiandae nostrum odit, culpa quaerat cum quisquam corporis officiis.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorum cupiditate expedita consequatur, quod quia nostrum maxime, quas id deleniti, accusantium voluptas recusandae aliquam tempora similique pariatur ab alias consequuntur odio vel! Dolore nemo odit, molestias iste aut velit nulla, quo optio est corporis eum?</p>
+        <div className="p-5 text-center w-50 m-auto">
+            <h1>A very tiny brewery.</h1>
+            <p>Wild Fly Brewing is a nano-brewery in the Kine Kombucha building - brewing very, very small batches.</p>
+            <p>We love beer, and as a licensed microbrewery for Kine, we decided to have some fun brewing tiny experimental batches of beer under the Wild Fly brand to share with some of our long time beer friends that enjoy having fun with beer as much as we do.</p>
+            <p>Follow us on instagram for beer release info.</p>
+            <button className="btn btn-primary">Follow @wildflybrewing<i className="fa-brands fa-instagram p-2"></i> </button>
         </div>
     )
 }
