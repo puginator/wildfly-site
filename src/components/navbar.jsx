@@ -23,7 +23,7 @@ export default function NavBar() {
                             <Nav.Link href="#home">Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="font-weight-bold h5">
-                            <Nav.Link href="#features">Beers</Nav.Link>
+                            <Nav.Link href="/beers">Beers</Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="font-weight-bold h5">
                             <Nav.Link href="#about">About Us</Nav.Link>
