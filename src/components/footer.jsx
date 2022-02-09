@@ -9,7 +9,7 @@ export default function Footer() {
                 <input type="email" className="form-control w-25 m-auto rounded-0" placeholder="Enter your email address" />
                 <button className="btn btn-dark w-25 rounded-0">Submit</button>
             </form>
-            <div>
+            <div className="m-4">
                 <i className="fa-brands fa-instagram p-3 fa-2x text-dark"></i>
                 <i className="fa-brands fa-twitter p-3 fa-2x text-dark"></i>
                 <i className="fa-regular fa-envelope p-3 fa-2x text-dark"></i>
