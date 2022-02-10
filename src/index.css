@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.no-text-decoration {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
 }
