@@ -2,6 +2,8 @@
 
 This project is for a local brewery in town. I wanted to build the site using React and was on a tight time budget so needed a MVP in just a couple of days. I decided to use bootstrap to help quickly put this together. I also integrated mail chimp for the email sign up portion. I am hoping to add an instagram carousel as well in the near future. 
 
+currently the site is hosted on netlify and will be launched once I get the information from the company (https://objective-curran-4f97e7.netlify.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
