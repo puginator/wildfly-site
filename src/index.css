@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.img-filter {
+  filter: brightness(.6);
+}
+
 .gap {
   gap: 1rem;
 }
