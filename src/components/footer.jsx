@@ -10,9 +10,15 @@ export default function Footer() {
                 <button className="btn btn-dark w-25 rounded-0">Submit</button>
             </form>
             <div className="m-4">
-                <i className="fa-brands fa-instagram p-3 fa-2x text-dark"></i>
-                <i className="fa-brands fa-twitter p-3 fa-2x text-dark"></i>
-                <i className="fa-regular fa-envelope p-3 fa-2x text-dark"></i>
+                <a href="https://www.instagram.com/WildFlyBrewing/" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-instagram p-3 fa-2x text-dark"></i>
+                </a>
+                <a href="https://www.twitter.com/WildFlyBrewing/" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-twitter p-3 fa-2x text-dark"></i>
+                </a>
+                <a href="mailto: wildflybrewing@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-regular fa-envelope p-3 fa-2x text-dark"></i>
+                </a>
             </div>
         </footer>
     )
