@@ -21,6 +21,14 @@ body {
   object-fit: cover;
 }
 
+.mailchimp>div>div {
+  color: white !important;
+}
+
+.mailchimp>div>div>a {
+  color: white !important;
+}
+
 .mailchimp>div>input {
   border-radius: 0;
   border: transparent;
@@ -48,4 +56,12 @@ body {
   outline: none;
   border: 1px solid #212529;
   box-shadow: 0 0 15px #212529;
+}
+
+.social {
+  transition: all .2s ease-in-out;
+}
+
+.social:hover {
+  transform: scale(1.1);
 }
