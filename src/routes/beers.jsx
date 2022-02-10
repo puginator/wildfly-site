@@ -8,8 +8,8 @@ export default function Beers() {
     return (
         <>  
             <NavBar />
-            <Container className="mb-5 m-auto row justify-content-center">
-                <Card style={{ width: '18rem', padding: '0' }} className="mr-5 mt-5">
+            <Container className="mb-5 m-auto row justify-content-center gap">
+                <Card style={{ width: '18rem', padding: '0' }} className=" mt-5">
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
                         <Card.Title>Wet Line West Coast IPA</Card.Title>
@@ -22,7 +22,7 @@ export default function Beers() {
                     </Card.Body>
                     <Card.Footer className="text-muted w-100">Batch 0001</Card.Footer>
                 </Card>
-                <Card style={{ width: '18rem', padding: '0' }} className="mt-5 mr-5">
+                <Card style={{ width: '18rem', padding: '0' }} className="mt-5 ">
                     <Card.Img variant="top" src={image}/>
                     <Card.Body>
                         <Card.Title>Wet Line West Coast IPA</Card.Title>
@@ -35,7 +35,7 @@ export default function Beers() {
                     </Card.Body>
                     <Card.Footer className="text-muted w-100">Batch 0001</Card.Footer>
                 </Card>
-                <Card style={{ width: '18rem', padding: '0' }} className="mt-5 mr-5">
+                <Card style={{ width: '18rem', padding: '0' }} className="mt-5">
                     <Card.Img variant="top" src={image}/>
                     <Card.Body>
                         <Card.Title>Wet Line West Coast IPA</Card.Title>

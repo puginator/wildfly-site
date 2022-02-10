@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gap {
+  gap: 1rem;
+}
+
 .no-text-decoration {
   text-decoration: none;
 }

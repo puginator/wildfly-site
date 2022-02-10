@@ -20,7 +20,7 @@ export default function AboutUs() {
             <NavBar />
             <div className="container-fluid d-flex flex-column flex-md-row justify-content-around align-items-center mt-5 mb-5">
                 <img src={family} alt="" className="hero-image img-thumbnail rounded" />
-                <div className=" w-50">
+                <div className=" p-3 w-75">
                     <h1 className="text-center">Who is Wild Fly?</h1>
                     <p>Wild Fly Brewing is a small (very small), family operated micro brewery. We started with the simple idea of turning what we loved doing into our something new + enjoyable for our community and sustainable for our family. Our little brewery is located less than a mile from our home in downtown Everson, WA</p>
                     <p>We are so excited to be sharing our passion of beer with our small community.</p>
@@ -28,15 +28,15 @@ export default function AboutUs() {
                     <p className="text-center">The Wild Fly Team</p>
                 </div>
             </div>
-            <div className="container-fluid p-5 text-center bg-secondary">
-                <img src={collage1} alt="" className="img-thumbnail rounded thumbnail" />
-                <img src={collage2} alt="" className="img-thumbnail rounded thumbnail" />
-                <img src={collage7} alt="" className="img-thumbnail rounded thumbnail" />
-                <img src={collage4} alt="" className="img-thumbnail rounded thumbnail" />
-                <img src={collage8} alt="" className="img-thumbnail rounded thumbnail" />
-                <img src={collage6} alt="" className="img-thumbnail rounded thumbnail" />
-                <img src={collage5} alt="" className="img-thumbnail rounded thumbnail" />
-                <img src={collage3} alt="" className="img-thumbnail rounded thumbnail" />
+            <div className="container-fluid row gap p-5 text-center bg-secondary m-auto">
+                <img src={collage1} alt="" className="img-thumbnail rounded thumbnail col" />
+                <img src={collage2} alt="" className="img-thumbnail rounded thumbnail col" />
+                <img src={collage7} alt="" className="img-thumbnail rounded thumbnail col" />
+                <img src={collage4} alt="" className="img-thumbnail rounded thumbnail col" />
+                <img src={collage8} alt="" className="img-thumbnail rounded thumbnail col" />
+                <img src={collage6} alt="" className="img-thumbnail rounded thumbnail col" />
+                <img src={collage5} alt="" className="img-thumbnail rounded thumbnail col" />
+                <img src={collage3} alt="" className="img-thumbnail rounded thumbnail col" />
 
             </div>
             <Footer />
