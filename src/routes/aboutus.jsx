@@ -18,9 +18,9 @@ export default function AboutUs() {
     return (
         <>
             <NavBar />
-            <div className="container-fluid d-flex flex-column flex-md-row justify-content-around align-items-center mt-5 mb-5">
+            <div className="container-fluid d-flex flex-column flex-md-row justify-content-around align-items-center mt-5 mb-5 gap">
                 <img src={family} alt="" className="hero-image img-thumbnail rounded" />
-                <div className=" p-3 w-75">
+                <div className=" w-50">
                     <h1 className="text-center">Who is Wild Fly?</h1>
                     <p>Wild Fly Brewing is a small (very small), family operated micro brewery. We started with the simple idea of turning what we loved doing into our something new + enjoyable for our community and sustainable for our family. Our little brewery is located less than a mile from our home in downtown Everson, WA</p>
                     <p>We are so excited to be sharing our passion of beer with our small community.</p>
