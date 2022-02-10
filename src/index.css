@@ -26,9 +26,26 @@ body {
   border: transparent;
 }
 
+.mailchimp>div>input:focus {
+  outline: none;
+  border: 1px solid #212529;
+  box-shadow: 0 0 15px #212529;
+}
+
 .mailchimp>div>button {
   background-color: #212529;
   color: white;
   border-radius: 0;
   border: transparent;
+}
+
+.mailchimp>div>button:hover {
+  filter: brightness(.8);
+
+}
+
+.mailchimp>div>button:focus {
+  outline: none;
+  border: 1px solid #212529;
+  box-shadow: 0 0 15px #212529;
 }
