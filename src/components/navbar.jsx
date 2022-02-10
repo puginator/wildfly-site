@@ -22,7 +22,7 @@ export default function NavBar() {
                         </Link>
 
                     </Navbar.Brand>
-                    <Nav className="text-uppercase">
+                    <Nav className="text-uppercase flex-wrap justify-content-center">
                         <Nav.Item className="font-weight-bold h5" >
                             <Link className="no-text-decoration" to="/">
                                 <Nav.Link href="#home">Home</Nav.Link>
