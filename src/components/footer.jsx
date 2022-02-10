@@ -1,6 +1,7 @@
 import React from "react";
 import MailchimpFormContainer from "./mailchimpform";
 
+
 export default function Footer() {
     return (
         <footer className="container-fluid bg-secondary text-center text-white p-5 justify-content-md-center">
@@ -19,6 +20,10 @@ export default function Footer() {
                 <a href="mailto: wildflybrewing@gmail.com" target="_blank" rel="noopener noreferrer">
                     <i className="fa-regular fa-envelope p-3 fa-2x text-dark social"></i>
                 </a>
+            </div>
+            <div>
+                <p className="text-center">&copy; Wild Fly Brewing {new Date().getFullYear()}</p>
+                <p>created by <a href="https://www.austincodez.dev" className="text-white no-text-decoration">AustinCodez.dev</a></p>
             </div>
         </footer>
     )
