@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
-import { Container } from "react-bootstrap";
+
 import family from "../images/familyphoto.jpeg";
 import collage1 from "../images/collage1.jpg";
 import collage2 from "../images/collage2.jpg";
