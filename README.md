@@ -1,4 +1,4 @@
-#What I wanted to accomplish with this site
+# What I wanted to accomplish with this site
 
 This project is for a local brewery in town. I wanted to build the site using React and was on a tight time budget so needed a MVP in just a couple of days. I decided to use bootstrap to help quickly put this together. I also integrated mail chimp for the email sign up portion. I am hoping to add an instagram carousel as well in the near future. 
 
