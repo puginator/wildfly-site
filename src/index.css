@@ -20,3 +20,15 @@ body {
   width: 350px;
   object-fit: cover;
 }
+
+.mailchimp>div>input {
+  border-radius: 0;
+  border: transparent;
+}
+
+.mailchimp>div>button {
+  background-color: #212529;
+  color: white;
+  border-radius: 0;
+  border: transparent;
+}
