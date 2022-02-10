@@ -11,13 +11,16 @@ export default function NavBar() {
               <Navbar bg="light" variant="light" className="sticky-top p-3">
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img
-                            alt=""
-                            src={logo}
-                            width="110"
-                            height="80"
-                            className="d-inline-block align-top"
-                        />
+                        <Link to="/">
+                            <img
+                                alt=""
+                                src={logo}
+                                width="110"
+                                height="80"
+                                className="d-inline-block align-top"
+                            />
+                        </Link>
+
                     </Navbar.Brand>
                     <Nav className="text-uppercase">
                         <Nav.Item className="font-weight-bold h5" >

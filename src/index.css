@@ -10,3 +10,9 @@ body {
 .flex {
   display: flex;
 }
+
+.thumbnail {
+  max-height: 250px;
+  width: 350px;
+  object-fit: cover;
+}
