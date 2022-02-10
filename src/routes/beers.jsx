@@ -8,7 +8,7 @@ export default function Beers() {
     return (
         <>  
             <NavBar />
-            <Container className="mb-5 m-auto row">
+            <Container className="mb-5 m-auto row justify-content-center">
                 <Card style={{ width: '18rem', padding: '0' }} className="mr-5 mt-5">
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
